@@ -20,7 +20,6 @@ Insert, delete, search are all the usual `O(log n)` on average (unless you make 
 - Works on Linux, macOS, and Windows (no platform-specific code)
 
 ## Build
-```bash
 g++ -std=c++11 main.cpp -o patient_records_bst
 ./patient_records_bst
 
